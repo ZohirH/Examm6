@@ -16,5 +16,7 @@ namespace Examm.Data.Entities
         [Column("Location_Id")]
         public int LocationId { get; set; }
 
+        public Location Location { get; set; }
+
     }
 }

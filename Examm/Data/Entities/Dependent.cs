@@ -24,5 +24,7 @@ namespace Examm.Data.Entities
 
         [Column("Eployee_Id")]
         public int EmployeeId { get; set; }
+
+        public Employee Employee { get; set; }
     }
 }

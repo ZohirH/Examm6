@@ -17,5 +17,7 @@ namespace Examm.Data.Entities
         [Column("Region_Id")]
         public int RegionId { get; set; }
 
+        public Region Region { get; set; }
+
     }
 }

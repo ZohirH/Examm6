@@ -32,10 +32,13 @@ namespace Examm.Data.Entities
 
         [Column("Job_Id")]
         public int JobId { get; set; }
+        public Job Job { get; set; }
 
         public decimal Salary { get; set; }
 
         [Column("Department_Id")]
         public int DepartmentId { get; set; }
+
+        public Department Department { get; set; }
     }
 }

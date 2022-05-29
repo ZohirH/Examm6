@@ -31,5 +31,7 @@ namespace Examm.Data.Entities
         [MaxLength(2)]
         [Column("Country_Id")]
         public int CountryId { get; set; }
+
+        public Country Country { get; set; }
     }
 }
